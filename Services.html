@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="assets/image/icon-(2).png" type="image/x-icon" />
+    <title>Services</title>
+ <!-- bootstrap css file link -->
+ <link rel="stylesheet" href="assets/css/bootstrap.css">
+ <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+ <!-- custom css file link -->
+ <link rel="stylesheet" href="assets/css/style.css">
+ <!-- custom responsive css file -->
+ <link rel="stylesheet" href="assets/css/Responsive.css">
+ <!-- font awesome link -->
+ <link rel="stylesheet" href="assets/css/all.min.css">
+ <link rel="stylesheet" href="assets/css/fontawesome.css">
+ <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-them">
+
+ <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
+
+</head>
+
+<body>
+    <!-- header section start-->
+    <div class="header sticky can-sticky">
+      <nav class="  d-xl-block d-none py-2">
+        <div class="container-md">
+            <div class="row align-items-center text-center text-md-start">
+                
+              
+                <div class="col-12 col-md-3 d-flex justify-content-center justify-content-md-start mb-2 mb-md-0">
+                  <div class="nav-logo ms-lg-auto me-auto ">
+                    <a href="index.html">
+                      <img class="img-fluid log-img  " src="https://placehold.co/150x25" alt="">
+                    </a>
+                  </div>
+                </div>
+    
+                <div class="col-md-6 col-12 d-none d-md-flex flex-column flex-lg-row align-items-center justify-content-center">
+                    <span class="text-size">
+                        <i class="fa-solid text-primary fa-location-dot pe-2"></i>
+                        670 Lafayette Ave, Brooklyn, NY 11216
+                    </span>
+                    <span class="mx-lg-4 mt-2 mt-lg-0">
+                        <i class="fa-solid text-primary fa-phone pe-2"></i>
+                        <span class="fw-bold">(123) 4536-13245</span>
+                    </span>
+                </div>
+    
+            
+                <div class="col-12 col-md-3 text-center  mt-2 mt-md-0">
+                  <div class="nav-button w-75 d-none d-lg-block">
+                    <div class="anim-layer  "></div>
+                    <a href="Book-app.html">Book Appointment</a>
+                  </div>
+                </div>
+    
+            </div>
+        </div>
+    </nav> 
+      <header >
+        <div class="navbar py-3  " style="z-index: 9;" >
+          <div class="nav-logo d-xl-none d-block ms-lg-auto me-auto ">
+            <div class="nav-logo  ms-lg-auto me-auto ">
+              <a href="index.html">
+                <img class="img-fluid log-img " src="https://placehold.co/150x25" alt="">
+              </a>
+            </div>
+          </div>
+          <div class="nav-items navigation mx-auto">
+            <ul class="main-menu mb-0 py-3">
+              <li><a href="index.html"> Home </a></li>
+              <li class=""><a href="About-clinic.html"> About us</a></li>
+              <li class="dropdown menu-item-has-children">
+                <a href="#"> Services <i class="fa-solid fa-angle-down"></i></a>
+                <ul class="dropdown-menu sub-menu py-1">
+                  <li class="menu-hover"><a class="w-w" href="Services.html">Services </a></li>
+                  <li class="menu-hover"><a class="w-w" href="Services-details.html">Services Details</a></li>
+                </ul>
+              </li>
+                <li class="dropdown">
+                  <a href="#"> Blog <i class="fa-solid fa-angle-down"></i> </a>
+                  <ul class="dropdown-menu py-1 ">
+                    <li class="menu-hover"><a class="w-w" href="Blog-grid.html">Blog-grid </a></li>
+                    <li class="menu-hover"><a class="w-w" href="Blog-left.html">Blog-left</a></li>
+                    <li class="menu-hover"><a class="w-w" href="Blog-right.html">Blog-right </a></li>
+                    <li class="menu-hover"><a class="w-w" href="blog-details.html">Blog Details</a></li>
+                  </ul>
+                </li>
+              <li><a href="Price.html"> Price </a></li>
+              <li class="dropdown">
+                <a href="#"> Doctor <i class="fa-solid fa-angle-down"></i> </a>
+                <ul class="dropdown-menu p-1 ">
+                  <li class="menu-hover"><a  class="w-w" href="Doctor.html">Doctor  </a></li>
+                  <li class="menu-hover"><a  class="w-w" href="Doctor-details.html">Doctor Details </a></li>
+                </ul>
+              </li>
+              <li><a href="Contact.html"> Contact us </a></li>
+            </ul>
+          </div>
+          <div class="nav-button d-none d-lg-block">
+            <div class="anim-layer  "></div>
+           
+          </div>
+          <div id="hamburger-menu">&#9776;</div>
+        </div>
+        <div id="mobile-menu" style="z-index: 99;">
+          <div class="mobile-nav-items">
+            <ul>
+              <li class="pt-2"><a href="index.html"> Home </a></li>
+              <li><a href="About-clinic.html"> About </a></li>
+             
+              <li class="mobile-dropdown">
+                <a href="#" class="dropdown-toggle"> Services</a>
+                <span class="">▼</span>
+                <ul class="mobile-dropdown-menu">
+                  <li class="menu-hover font-s "><a href="Services.html">Services</a></li>
+                  <li class="menu-hover font-s "><a href="Services-details.html">Services-details</a></li>
+                </ul>
+              </li>
+             
+              <li class="mobile-dropdown">
+                <a href="#" class="dropdown-toggle"> Blog </a>
+                <span class="">▼</span>
+                <ul class="mobile-dropdown-menu">
+                  <li class="menu-hover font-s"><a href="Blog-grid.html">Blog-grid </a></li>
+                  <li class="menu-hover font-s"><a href="Blog-left.html">Blog-left</a></li>
+                  <li class="menu-hover font-s"><a href="Blog-right.html">Blog-right </a></li>
+                  <li class="menu-hover font-s"><a href="blog-details.html">Blog Details</a></li>
+                </ul>
+              </li>
+              
+              <li><a href="Price.html"> Price </a></li>
+              <li class="mobile-dropdown">
+                <a href="#" class="dropdown-toggle"> Doctor </a>
+                <span class="">▼</span>
+                <ul class="mobile-dropdown-menu">
+                  <li class="menu-hover font-s"><a href="Doctor.html">Doctor</a></li>
+                  <li class="menu-hover font-s"><a href="Doctor-details.html">Doctor-details</a></li>
+                </ul>
+              </li>
+              <li><a href="Contact.html"> Contact us </a></li>
+          </div>
+          <div class="mobile-nav-button nav-button">
+            <div class="anim-layer"></div>
+            <a href="Book-app.html">Book Appointment</a>
+          </div>
+          <div id="hamburger-cross">&#10006;</div>
+        </div>
+     </header>
+     </div>
+    <!-- header section end-->
+
+<!-- back-img section start -->
+<section class="back-img"  id="fix-icon">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="page-header my-5">
+          <h1 class="fw-bold text-light ">Services </h1>
+          <div class="py-2">
+            <a class="a-text" href="index.html">Home</a> <span class="mx-2 a-text">/ Services</span> 
+          </div>
+         </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- back-img section end -->
+
+    <!-- Our services section start -->
+    <section class="secon-pm">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h3 class="fs-3 text-primary pb-3">Our services</h3>
+            <h1 class="fs-1 py-3 fw-bold" style="color: #1e306e">
+              Feel Better, Move Freely, Live Fully
+            </h1>
+            <p>Expert physiotherapy consultations and personalized care delivered to your doorstep or online. Your journey to a healthier, pain-free life starts here!</p>
+          </div>
+          <div
+            class="row row-cols-lg-4 row-cols-1  mx-auto row-cols-md-3 row-cols-sm-2 g-4"
+          >
+            <div class="col mt-3">
+              <div class="card hover-cls h-100  border mt-3 p-3">
+                <img
+                  src="https://placehold.co/266x177"
+                  class="card-img-top "
+                  alt="Medical Service"
+                />
+                <div class="card-body ps-0">
+                  <h5 class="card-title tex-col">
+                    Comprehensive diagnosis of vision
+                  </h5>
+                  <p class="fs-6">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Voluptate, rem!
+                  </p>
+                  <a class="btn text-info" href="Services-details.html" role="button "
+                  >Learn More <i class="fa-solid fa-arrow-right"></i
+                ></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col mt-3">
+              <div class="card h-100 hover-cls border mt-3 p-3">
+                <img
+                  src="https://placehold.co/266x177"
+                  class="card-img-top  "
+                  alt="Medical Service"
+                />
+                <div class="card-body ps-0">
+                  <h5 class="card-title tex-col">Laser vision correction</h5>
+                  <p class="fs-6">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Voluptate, rem!
+                  </p>
+                  <a class="btn text-info" href="Services-details.html" role="button "
+                  >Learn More <i class="fa-solid fa-arrow-right"></i
+                ></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col mt-3">
+              <div class="card h-100 hover-cls border mt-3 p-3">
+                <img
+                  src="https://placehold.co/266x177"
+                  class="card-img-top "
+                  alt="Medical Service"
+                />
+                <div class="card-body ps-0">
+                  <h5 class="card-title tex-col">Cataract surgery</h5>
+                  <p class="fs-6">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Voluptate, rem!
+                  </p>
+                  <a class="btn text-info" href="Services-details.html" role="button "
+                  >Learn More <i class="fa-solid fa-arrow-right"></i
+                ></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col mt-3">
+              <div class="card h-100 hover-cls border mt-3 p-3">
+                <img
+                  src="https://placehold.co/266x177 "
+                  class="card-img-top "
+                  alt="Medical Service"
+                />
+                <div class="card-body ps-0">
+                  <h5 class="card-title tex-col">Glaucoma treatment</h5>
+                  <p class="fs-6 pb-0">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Voluptate, rem!
+                  </p>
+                  <a class="btn text-info" href="Services-details.html" role="button "
+                  >Learn More <i class="fa-solid fa-arrow-right"></i
+                ></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col mt-3">
+              <div class="card h-100 hover-cls border mt-3 p-3">
+                <img
+                  src="https://placehold.co/266x177"
+                  class="card-img-top "
+                  alt="Medical Service"
+                />
+                <div class="card-body ps-0">
+                  <h5 class="card-title tex-col">Retinal disease treatment</h5>
+                  <p class="fs-6 pb-0">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Voluptate, rem!
+                  </p>
+                  <a class="btn text-info" href="Services-details.html" role="button "
+                  >Learn More <i class="fa-solid fa-arrow-right"></i
+                ></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col mt-3">
+              <div class="card h-100 hover-cls border mt-3 p-3">
+                <img
+                  src="https://placehold.co/266x177"
+                  class="card-img-top "
+                  alt="Medical Service"
+                />
+                <div class="card-body ps-0">
+                  <h5 class="card-title tex-col">Phakic lens implantation</h5>
+                  <p class="fs-6 pb-0">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Voluptate, rem!
+                  </p>
+                  <a class="btn text-info" href="Services-details.html" role="button "
+                  >Learn More <i class="fa-solid fa-arrow-right"></i
+                ></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col mt-3">
+              <div class="card h-100 hover-cls border mt-3 p-3">
+                <img
+                  src="https://placehold.co/266x177"
+                  class="card-img-top "
+                  alt="Medical Service"
+                />
+                <div class="card-body ps-0">
+                  <h5 class="card-title tex-col">Keratoconus Treatment</h5>
+                  <p class="fs-6 pb-0">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Voluptate, rem!
+                  </p>
+                  <a class="btn text-info" href="Services-details.html" role="button "
+                  >Learn More <i class="fa-solid fa-arrow-right"></i
+                ></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col mt-3">
+              <div class="card h-100 hover-cls border mt-3 p-3">
+                <img
+                  src="https://placehold.co/266x177"
+                  class="card-img-top "
+                  alt="Medical Service"
+                />
+                <div class="card-body ps-0">
+                  <h5 class="card-title tex-col">Selection of glasses</h5>
+                  <p class="fs-6 pb-0">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Voluptate, rem!
+                  </p>
+                  <a class="btn text-info" href="Services-details.html" role="button "
+                  >Learn More <i class="fa-solid fa-arrow-right"></i
+                ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Our services section end -->
+
+    <!-- advantages section start -->
+    <section class="secon-pm pb-0" style="background-color: #f6fcff">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h4 class="text-primary">Our Advantages</h4>
+            <h1 class="py-3" style="color: #1e306e">
+              Good vision for many years
+            </h1>
+          </div>
+        </div>
+        <div class="row secon-pm">
+          <div class="col-12 col-md-6 col-lg-4 mb-2">
+            <div class="text-center h-100 animated-card p-3">
+              <img
+                src="https://placehold.co/120x120"
+                class="img-fluid img-round"
+                alt=""
+              />
+              <h3 class="my-2" style="color: #1e306e">Highest professional level</h3>
+              <p class="pt-2">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et .
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 mb-4">
+            <div class="text-center h-100 animated-card p-3">
+              <img
+                src="https://placehold.co/120x120"
+                class="img-fluid img-round"
+                alt=""
+              />
+              <h3 class="my-2 pt-3" style="color: #1e306e">Individual treatment program</h3>
+              <p class="pt-2">
+                Lacus vestibulum sed arcu non odio. Egestas tellus rutrum tellus
+                pellentesque eu tincidunt tortor aliquam.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 mb-4 mx-auto">
+            <div class="text-center h-100 animated-card p-3">
+              <img
+                src="https://placehold.co/120x120"
+                class="img-fluid img-round"
+                alt=""
+              />
+              <h3 class="my-2" style="color: #1e306e">Equipment with international </h3>
+              <p class="pt-2">
+                Dui accumsan sit amet nulla facilisi morbi. Nibh ipsum consequat
+                nisl vel pretium dolore.
+              </p>
+            </div>
+          </div>
+          <div class="text-center mt-4">
+            <button
+              type="button"
+              class="btn text-white py-3 px-4 mb-3 btn-primary"
+            >
+              Book an Appointment
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- advantages section end -->
+
+    <!--Unique technology section start -->
+    <section class="secon-pm">
+      <div class="container">
+        <div class="row my-5">
+          <div class="col-lg-5 col-12">
+            <img
+              class="img-fluid pt-3 pe-md-3 pe-0 img-bg"
+              src="https://placehold.co/510x382"
+              alt=""
+            />
+          </div>
+          <div class="col-lg-6 col-12 offset-lg-1">
+            <h4 class="text-primary my-3">OUR WARRANTIES</h4>
+            <h1 class="fw-bold mb-3" style="color: #1e306e">We guarantee:</h1>
+            <div class="my-2">
+              <h5 class="">
+                <i
+                  class="fa-solid fa-check text-info mt-4 fs-5 pe-2 py-md-0 py-1"
+                ></i>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+              </h5>
+
+              <h5 class="">
+                <i
+                  class="fa-solid fa-check text-info fs-5 pe-2 py-md-0 py-1"
+                ></i>
+                Lacus vestibulum sed arcu odio. Egestas tellus rutrum.
+              </h5>
+
+              <h5 class="py-1">
+                <i class="fa-solid fa-check text-info pe-2 py-md-0 py-1"></i>
+                Purus viverra accumsan in nisl nisi.
+              </h5>
+              <h5 class="py-1 mb-4">
+                <i
+                  class="fa-solid fa-check text-info fs-5 pe-2 py-md-0 py-1"
+                ></i>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+              </h5>
+            </div>
+            <div class="my-lg-0 my-md-0 my-3 card-hov rounded">
+              <button class="btn fs-4 text-white py-3 px-5 btn-primary">
+                Ask us anything!
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Unique technology section end -->
+
+    <!-- faq section start -->
+    <section class="secon-pm">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10 mx-auto">
+            <div class="accordion">
+              <div class="accordion-item">
+                <button id="accordion-button-1" aria-expanded="true">
+                  <span class="accordion-title text-start"
+                    >1. What is physiotherapy, and who can benefit from
+                    it?</span
+                  >
+                  <span class="icon">-</span>
+                </button>
+                <div class="accordion-content">
+                  <p>
+                    Physiotherapy helps improve movement, reduce pain, and
+                    enhance recovery for anyone dealing with injuries, chronic
+                    conditions, or mobility issues.
+                  </p>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <button id="accordion-button-2" aria-expanded="false">
+                  <span class="accordion-title text-start"
+                    >2. How do I book an appointment for physiotherapy?</span
+                  >
+                  <span class="icon">+</span>
+                </button>
+                <div class="accordion-content">
+                  <p>
+                    Physiotherapy helps improve movement, reduce pain, and
+                    enhance recovery for anyone dealing with injuries, chronic
+                    conditions, or mobility issues.
+                  </p>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <button id="accordion-button-3" aria-expanded="false">
+                  <span class="accordion-title text-start"
+                    >3. What do I need for an online physiotherapy
+                    session?</span
+                  >
+                  <span class="icon">+</span>
+                </button>
+                <div class="accordion-content">
+                  <p>
+                    Physiotherapy helps improve movement, reduce pain, and
+                    enhance recovery for anyone dealing with injuries, chronic
+                    conditions, or mobility issues.
+                  </p>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <button id="accordion-button-4" aria-expanded="false">
+                  <span class="accordion-title text-start"
+                    >4. How many physiotherapy sessions will I need?</span
+                  >
+                  <span class="icon">+</span>
+                </button>
+                <div class="accordion-content">
+                  <p>
+                    Physiotherapy helps improve movement, reduce pain, and
+                    enhance recovery for anyone dealing with injuries, chronic
+                    conditions, or mobility issues.
+                  </p>
+                </div>
+              </div>
+              <div class="accordion-item mb-5">
+                <button id="accordion-button-5" aria-expanded="false">
+                  <span class="accordion-title text-start"
+                    >5. Is online physiotherapy as effective as in-person
+                    care?</span
+                  >
+                  <span class="icon">+</span>
+                </button>
+                <div class="accordion-content">
+                  <p>
+                    Physiotherapy helps improve movement, reduce pain, and
+                    enhance recovery for anyone dealing with injuries, chronic
+                    conditions, or mobility issues.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- faq section end -->
+
+    <!-- Make an  section start -->
+    <section class="secon-pm" style="background-color: #f6fcff">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 text-center">
+            <div>
+              <h1 class="py-3 mb-3" style="color: #1e306e">
+                Make an appointment <br />
+                with an ophthalmologist
+              </h1>
+              <span class="fs-5">
+                <span class="pe-2">Have questions?</span>
+                <i class="fa-solid icon fa-phone pe-2"></i>
+                <span class="fw-bold">(123) 4536-13245</span>
+              </span>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-5 pt-2 text-center">
+            <a href="Book-app.html">
+              <button
+                type="button"
+                class="btn py-4 px-5 btn-primary text-white"
+              >
+                Book an Appointment
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Make an  section start -->
+
+    <!-- footer start -->
+    <footer style="background-color: #1d41b9;">
+      <div class="container  ">
+          <div class="row pt-5 ">
+              <div class="col-lg-3 col-sm-6 col-12 ">
+                  <div class="">
+                      <img class="img-fluid log-img pb-2 "  src="https://placehold.co/150x25" alt="">
+                      <p class="fs-7 pt-2 text-white fs-6" style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                 <div class="text-white g-4 fs-3">
+                  <span><i class="fa-brands fa-facebook pe-2"></i></span>
+                  <span><i class="fa-brands fa-instagram pe-2"></i></span>
+                  <span><i class="fa-brands fa-linkedin "></i></span>
+                 </div>
+                    </div>
+              </div>
+              <div class="col-lg-3 col-sm-6 col-12 pt-sm-0 pt-5">
+                <h5 class="text-white pb-2">
+                  What We Treat
+                </h5>
+                 <div class="d-flex g-1">
+                  <div class="pe-3">
+                    <p class="text-white pt-4">Astigmatism</p>
+                    <p class="text-white ">Myopia</p>
+                    <p class="text-white ">Cataract</p>
+                    <p class="text-white ">Amblyopia</p>
+                    <p class="text-white ">Glaucoma</p>
+                </div>
+                <div class="pb-5">
+                    
+                    <p class="text-white pt-4">Strabismus</p>
+                    <p class="text-white ">Farsightedness</p>
+                    <p class="text-white ">Retinal diseases</p>
+                    <p class="text-white ">Keratoconus</p>
+                   
+                </div>
+                 </div>
+              </div>
+              <div class="col-lg-3 col-sm-6 col-12 pt-md-0 pt-5">
+                  <div class="">
+                      <h5 class="text-white pb-3">Latest News</h5>
+                      <div class="pt-3">
+                          <div class="d-flex">
+                              <img src="https://placehold.co/85x85" alt="" class="img-fluid late-img   p-2 ps-0">
+                             <div>
+                              <p class="text-info fs-7">January 5,2025 </p>
+                              <h6 class="text-white fs-6">The face is a picture of  the mind with an eyes</h6>
+                             </div>
+                          </div>
+                          <div class="d-flex">
+                            <img src="https://placehold.co/85x85" alt="" class="img-fluid late-img  p-2 ps-0">
+                           <div>
+                            <p class="text-info fs-7">January 5,2025 </p>
+                            <h6 class="text-white fs-6">The face is a picture of  the mind with an eyes</h6>
+                           </div>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-sm-6 col-12">
+                  <div class="ps-3 pt-sm-0 pt-5">
+                      <h5 class="text-white pb-3">Contatcs</h5>
+                      <p class="text-white  mb-2"><i class="fa-solid fa-location-dot pe-2 text-info"></i> 4578
+                          Marmora Road,Glasgow </p>
+                      <p class="text-white mb-2 "><i class="fa-solid fa-phone text-info pe-2"></i> (800) 2345-6789</p>
+                      <p class="text-white"><i class="fa-regular fa-envelope pe-2 text-info"></i>
+                          info@specsstyle.org</p>
+                    
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class=" container-fluid  mt-5 pt-2 pb-1 " style="background-color: #19379d;">
+            <p class="text-center text-white my-2 fs-6">Copyright © 2025 specsstyle. All rights reserved.</p>
+          </div>
+       
+  </footer>
+<!-- footer end -->
+     
+    <div class="fix-iconsx"><a href="#fix-icon"><i class="fa-solid fa-arrow-up text-white"></i></a></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"> </script>
+   <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+   <script src="assets/js/bootstrap.bundle.js"></script>
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script src="assets/js/scrpit.js"></script>
+  </body>
+</html>

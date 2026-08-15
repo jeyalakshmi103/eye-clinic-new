@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <link rel="icon" href="assets/image/icon-(2).png" type="image/x-icon" >
+    <title>Doctor-details</title>
+ <!-- bootstrap css file link -->
+ <link rel="stylesheet" href="assets/css/bootstrap.css">
+ <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+ <!-- custom css file link -->
+ <link rel="stylesheet" href="assets/css/style.css">
+ <!-- custom responsive css file -->
+ <link rel="stylesheet" href="assets/css/Responsive.css">
+ <!-- font awesome link -->
+ <link rel="stylesheet" href="assets/css/all.min.css">
+ <link rel="stylesheet" href="assets/css/fontawesome.css">
+ <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-them">
+
+ <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
+
+</head>
+
+<body>
+  <!-- header section start-->
+  <div class="header sticky can-sticky">
+    <nav class="  d-xl-block d-none py-2">
+      <div class="container-md">
+          <div class="row align-items-center text-center text-md-start">
+              
+            
+              <div class="col-12 col-md-3 d-flex justify-content-center justify-content-md-start mb-2 mb-md-0">
+                <div class="nav-logo ms-lg-auto me-auto ">
+                  <a href="index.html">
+                    <img class="img-fluid log-img  " src="https://placehold.co/150x25" alt="">
+                  </a>
+                </div>
+              </div>
+  
+              <div class="col-md-6 col-12 d-none d-md-flex flex-column flex-lg-row align-items-center justify-content-center">
+                  <span class="text-size">
+                      <i class="fa-solid text-primary fa-location-dot pe-2"></i>
+                      670 Lafayette Ave, Brooklyn, NY 11216
+                  </span>
+                  <span class="mx-lg-4 mt-2 mt-lg-0">
+                      <i class="fa-solid text-primary fa-phone pe-2"></i>
+                      <span class="fw-bold">(123) 4536-13245</span>
+                  </span>
+              </div>
+  
+          
+              <div class="col-12 col-md-3 text-center  mt-2 mt-md-0">
+                <div class="nav-button w-75 d-none d-lg-block">
+                  <div class="anim-layer  "></div>
+                  <a href="Book-app.html">Book Appointment</a>
+                </div>
+              </div>
+  
+          </div>
+      </div>
+  </nav> 
+    <header >
+      <div class="navbar py-3  " style="z-index: 9;" >
+        <div class="nav-logo d-xl-none d-block ms-lg-auto me-auto ">
+          <div class="nav-logo  ms-lg-auto me-auto ">
+            <a href="index.html">
+              <img class="img-fluid log-img " src="https://placehold.co/150x25" alt="">
+            </a>
+          </div>
+        </div>
+        <div class="nav-items navigation mx-auto">
+          <ul class="main-menu mb-0 py-3">
+            <li><a href="index.html"> Home </a></li>
+            <li class=""><a href="About-clinic.html"> About us</a></li>
+            <li class="dropdown menu-item-has-children">
+              <a href="#"> Services <i class="fa-solid fa-angle-down"></i></a>
+              <ul class="dropdown-menu sub-menu py-1">
+                <li class="menu-hover"><a class="w-w" href="Services.html">Services </a></li>
+                <li class="menu-hover"><a class="w-w" href="Services-details.html">Services Details</a></li>
+              </ul>
+            </li>
+              <li class="dropdown">
+                <a href="#"> Blog <i class="fa-solid fa-angle-down"></i> </a>
+                <ul class="dropdown-menu py-1 ">
+                  <li class="menu-hover"><a class="w-w" href="Blog-grid.html">Blog-grid </a></li>
+                  <li class="menu-hover"><a class="w-w" href="Blog-left.html">Blog-left</a></li>
+                  <li class="menu-hover"><a class="w-w" href="Blog-right.html">Blog-right </a></li>
+                  <li class="menu-hover"><a class="w-w" href="blog-details.html">Blog Details</a></li>
+                </ul>
+              </li>
+            <li><a href="Price.html"> Price </a></li>
+            <li class="dropdown">
+              <a href="#"> Doctor <i class="fa-solid fa-angle-down"></i> </a>
+              <ul class="dropdown-menu p-1 ">
+                <li class="menu-hover"><a  class="w-w" href="Doctor.html">Doctor  </a></li>
+                <li class="menu-hover"><a  class="w-w" href="Doctor-details.html">Doctor Details </a></li>
+              </ul>
+            </li>
+            <li><a href="Contact.html"> Contact us </a></li>
+          </ul>
+        </div>
+        <div class="nav-button d-none d-lg-block">
+          <div class="anim-layer  "></div>
+         
+        </div>
+        <div id="hamburger-menu">&#9776;</div>
+      </div>
+      <div id="mobile-menu" style="z-index: 99;">
+        <div class="mobile-nav-items">
+          <ul>
+            <li class="pt-2"><a href="index.html"> Home </a></li>
+            <li><a href="About-clinic.html"> About </a></li>
+           
+            <li class="mobile-dropdown">
+              <a href="#" class="dropdown-toggle"> Services</a>
+              <span class="">▼</span>
+              <ul class="mobile-dropdown-menu">
+                <li class="menu-hover font-s "><a href="Services.html">Services</a></li>
+                <li class="menu-hover font-s "><a href="Services-details.html">Services-details</a></li>
+              </ul>
+            </li>
+           
+            <li class="mobile-dropdown">
+              <a href="#" class="dropdown-toggle"> Blog </a>
+              <span class="">▼</span>
+              <ul class="mobile-dropdown-menu">
+                <li class="menu-hover font-s"><a href="Blog-grid.html">Blog-grid </a></li>
+                <li class="menu-hover font-s"><a href="Blog-left.html">Blog-left</a></li>
+                <li class="menu-hover font-s"><a href="Blog-right.html">Blog-right </a></li>
+                <li class="menu-hover font-s"><a href="blog-details.html">Blog Details</a></li>
+              </ul>
+            </li>
+            
+            <li><a href="Price.html"> Price </a></li>
+            <li class="mobile-dropdown">
+              <a href="#" class="dropdown-toggle"> Doctor </a>
+              <span class="">▼</span>
+              <ul class="mobile-dropdown-menu">
+                <li class="menu-hover font-s"><a href="Doctor.html">Doctor</a></li>
+                <li class="menu-hover font-s"><a href="Doctor-details.html">Doctor-details</a></li>
+              </ul>
+            </li>
+            <li><a href="Contact.html"> Contact us </a></li>
+        </div>
+        <div class="mobile-nav-button nav-button">
+          <div class="anim-layer"></div>
+          <a href="Book-app.html">Book Appointment</a>
+        </div>
+        <div id="hamburger-cross">&#10006;</div>
+      </div>
+   </header>
+   </div>
+  <!-- header section end-->
+
+
+  <section class="back-img"  id="fix-icon">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="page-header my-5">
+            <h1 class="fw-bold text-light ">Doctor-details</h1>
+            <div class="py-2">
+              <a class="a-text" href="index.html">Home</a> <span class="mx-2 a-text">/ Doctor-detail</span> 
+            </div>
+           </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- Our Doctors section start -->
+    <section class="secon-pm">
+      <div class="container my-4">
+        <div class="row justify-content-center">
+            <div class="col-lg-10 col-md-12">
+                <div class="row profile-container">
+                    <!-- Doctor's Image -->
+                    <div class="col-md-4 text-center">
+                        <img src="https://placehold.co/250x188" alt="Dr. Helen Wilmore" class="doctor-img">
+                    </div>
+                    <!-- Doctor's Information -->
+                    <div class="col-md-8 text-white">
+                        <h2 class="fw-bold">Dr. Helen Wilmore</h2>
+                        <p>M.D. of Medicine, MRCP (USA)</p>
+                        <div class="row mt-4">
+                            <div class="col-md-4 col-sm-4 col-6 stat-box">
+                                <p class="fw-bold">Experience</p>
+                                <h5>10+</h5>
+                            </div>
+                            <div class="col-md-4 col-sm-4 col-6 stat-box">
+                                <p class="fw-bold">Patients</p>
+                                <h5>10K</h5>
+                            </div>
+                            <div class="col-md-4 col-sm-4 col-12 stat-box">
+                                <p class="fw-bold">Certification</p>
+                                <h5>10</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Doctor's Details -->
+                <div class="doctor-info text-center">
+                    <p class="text-muted">
+                        Capitalize on low-hanging fruit to identify a ballpark value added activity to beta test.
+                        Override the digital divide with additional clickthroughs from DevOps.
+                        Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
+                    </p>
+                    <p class="text-muted">
+                        Dramatically engage high-payoff infomediaries rather than client-centric imperatives the efficiency.
+                    </p>
+                    <a href="#" class="btn btn-appointment mt-3">MAKE APPOINTMENT</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <!-- Our Doctors section end -->
+
+     <section>   
+<div class="container my-2">
+<div class="row">
+  <div class="col-lg-9 mx-auto">
+    <div class="card shadow-sm border-primary rounded-3">
+      <div class="card-body">
+          <div class="row p-3">
+              <div class="col-12 mb-3  ">
+                  <i class="bi bi-check-circle text-primary me-2"></i>
+                  <strong>Speciality:</strong> <span class="text-muted">Cardiology</span>
+              </div>
+              <div class="col-12 mb-3">
+                  <i class="bi bi-check-circle text-primary me-2"></i>
+                  <strong>Degrees:</strong> <span class="text-muted">General Medicine, DM – Cardiology</span>
+              </div>
+              <div class="col-12 mb-3">
+                  <i class="bi bi-check-circle text-primary me-2"></i>
+                  <strong>Training:</strong> <span class="text-muted">Interventional Cardiologist, General Physician</span>
+              </div>
+              <div class="col-12">
+                  <i class="bi bi-check-circle text-primary me-2"></i>
+                  <strong>Working Days:</strong> <span class="text-muted">Monday / Wednesday / Friday / Saturday</span>
+              </div>
+          </div>
+      </div>
+  </div>
+  </div>
+</div>
+</div>
+
+     </section>
+
+     
+    <!-- Make an  section start -->
+    <section class="secon-pm mt-5" style="background-color: #f6fcff">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 text-center">
+            <div>
+              <h1 class="py-3 mb-3" style="color: #1e306e">
+                Make an appointment <br />
+                with an ophthalmologist
+              </h1>
+              <span class="fs-5">
+                <span class="pe-2">Have questions?</span>
+                <i class="fa-solid icon fa-phone pe-2"></i>
+                <span class="fw-bold">(123) 4536-13245</span>
+              </span>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-5 pt-2 text-center">
+            <a href="Book-app.html">
+              <button
+                type="button"
+                class="btn py-4 px-5 btn-primary text-white"
+              >
+                Book an Appointment
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Make an  section start -->
+
+        <!-- footer start -->
+        <footer style="background-color: #1d41b9;">
+          <div class="container  ">
+              <div class="row pt-5 ">
+                  <div class="col-lg-3 col-sm-6 col-12 ">
+                      <div class="">
+                          <img class="img-fluid log-img pb-2 "  src="https://placehold.co/150x25" alt="">
+                          <p class="fs-7 pt-2 text-white fs-6" style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                     <div class="text-white g-4 fs-3">
+                      <span><i class="fa-brands fa-facebook pe-2"></i></span>
+                      <span><i class="fa-brands fa-instagram pe-2"></i></span>
+                      <span><i class="fa-brands fa-linkedin "></i></span>
+                     </div>
+                        </div>
+                  </div>
+                  <div class="col-lg-3 col-sm-6 col-12 pt-sm-0 pt-5">
+                    <h5 class="text-white pb-2">
+                      What We Treat
+                    </h5>
+                     <div class="d-flex g-1">
+                      <div class="pe-3">
+                        <p class="text-white pt-4">Astigmatism</p>
+                        <p class="text-white ">Myopia</p>
+                        <p class="text-white ">Cataract</p>
+                        <p class="text-white ">Amblyopia</p>
+                        <p class="text-white ">Glaucoma</p>
+                    </div>
+                    <div class="pb-5">
+                        
+                        <p class="text-white pt-4">Strabismus</p>
+                        <p class="text-white ">Farsightedness</p>
+                        <p class="text-white ">Retinal diseases</p>
+                        <p class="text-white ">Keratoconus</p>
+                       
+                    </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-3 col-sm-6 col-12 pt-md-0 pt-5">
+                      <div class="">
+                          <h5 class="text-white pb-3">Latest News</h5>
+                          <div class="pt-3">
+                              <div class="d-flex">
+                                  <img src="https://placehold.co/85x85" alt="" class="img-fluid late-img   p-2 ps-0">
+                                 <div>
+                                  <p class="text-info fs-7">January 5,2025 </p>
+                                  <h6 class="text-white fs-6">The face is a picture of  the mind with an eyes</h6>
+                                 </div>
+                              </div>
+                              <div class="d-flex">
+                                <img src="https://placehold.co/85x85" alt="" class="img-fluid late-img  p-2 ps-0">
+                               <div>
+                                <p class="text-info fs-7">January 5,2025 </p>
+                                <h6 class="text-white fs-6">The face is a picture of  the mind with an eyes</h6>
+                               </div>
+                            </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-3 col-sm-6 col-12">
+                      <div class="ps-3 pt-sm-0 pt-5">
+                          <h5 class="text-white pb-3">Contatcs</h5>
+                          <p class="text-white  mb-2"><i class="fa-solid fa-location-dot pe-2 text-info"></i> 4578
+                              Marmora Road,Glasgow </p>
+                          <p class="text-white mb-2 "><i class="fa-solid fa-phone text-info pe-2"></i> (800) 2345-6789</p>
+                          <p class="text-white"><i class="fa-regular fa-envelope pe-2 text-info"></i>
+                              info@specsstyle.org</p>
+                        
+                      </div>
+                  </div>
+                </div>
+              </div>
+              <div class=" container-fluid  mt-5 pt-2 pb-1 " style="background-color: #19379d;">
+                <p class="text-center text-white my-2 fs-6">Copyright © 2025 specsstyle. All rights reserved.</p>
+              </div>
+           
+      </footer>
+    <!-- footer end -->
+
+    <div class="fix-iconsx"><a href="#fix-icon"><i class="fa-solid fa-arrow-up text-white"></i></a></div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"> </script>
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="assets/js/bootstrap.bundle.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="assets/js/scrpit.js"></script>
+  </body>
+</html>
